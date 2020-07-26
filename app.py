@@ -6,6 +6,8 @@ import os
 from os import environ
 from passlib.hash import sha256_crypt
 from datetime import datetime
+import gunicorn
+import psycopg2
 
 load_dotenv('.env')
 
